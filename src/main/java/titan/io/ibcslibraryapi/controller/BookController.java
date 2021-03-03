@@ -10,4 +10,12 @@ import titan.io.ibcslibraryapi.service.BookService;
 public class BookController {
     @Autowired
     private BookService bookService;
+
+    // get all book
+    // get book by id
+    // post one book
+    // post all book
+    // delete book by id
+    // delete book by obj
+    // update book by obj
 }
