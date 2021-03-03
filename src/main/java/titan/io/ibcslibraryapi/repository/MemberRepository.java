@@ -6,5 +6,5 @@ import titan.io.ibcslibraryapi.model.Member;
 
 @Repository
 public interface MemberRepository extends JpaRepository<Member, Integer> {
-    public Member findByNid(int nid);
+    Member findByNid(int nid);
 }
