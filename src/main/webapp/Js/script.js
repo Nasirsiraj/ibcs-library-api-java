@@ -1,3 +1,3 @@
 window.onload = () => {
-    console.log("Welcome to IBCS-Library API")
+    console.log("Welcome to IBCS-Library API Java version.");
 }

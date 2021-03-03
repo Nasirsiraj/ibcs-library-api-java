@@ -11,6 +11,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class MemberController {
     @Autowired
     private MemberService memberService;

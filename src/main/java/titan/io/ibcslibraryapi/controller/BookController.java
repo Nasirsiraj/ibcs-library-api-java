@@ -11,6 +11,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class BookController {
     @Autowired
     private BookService bookService;
